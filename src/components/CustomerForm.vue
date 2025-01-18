@@ -5,7 +5,7 @@
   >
     <form
       @submit.prevent="handleSubmit"
-      class="bg-white rounded-lg shadow-lg p-6 max-w-2xl w-full mx-auto h-screen md:max-h-[600px] overflow-y-scroll"
+      class="bg-white md:rounded-lg md:shadow-lg py-12 px-6 sm:py-6 max-w-2xl w-full mx-auto h-[100dvh] md:max-h-[600px] overflow-y-scroll"
     >
       <div class="flex justify-between items-center pb-5">
         <h2 class="text-lg font-medium">Add New Customer</h2>
